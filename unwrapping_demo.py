@@ -7,7 +7,7 @@ from phase_unwrap import phase_unwrap, phase_unwrap_cyclical_axes
 import pyqtgraph as pg
 import numpy as np
 
-ALGORITHM = phase_unwrap  # Pick from phase_unwrap or phase_unwrap_cyclical_axes
+ALGORITHM = phase_unwrap_cyclical_axes  # Pick from phase_unwrap or phase_unwrap_cyclical_axes
 
 app = pg.mkQApp()
 
